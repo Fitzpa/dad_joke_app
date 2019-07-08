@@ -1,0 +1,19 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(
+    135deg,
+    rgba(144, 153, 162, 1) 0%,
+    rgba(144, 153, 162, 1) 50%,
+    rgba(109, 121, 147, 1) 50%,
+    rgba(109, 121, 147, 1) 100%
+  );
+  font-family: "Montserrat", sans-serif;
+  color: rgb(0, 0, 0);
+}
+/* rgb(150,133,143) DUSTY */
+/* rgb(109,121,147) LAVENDAR */
+/* rgb(144,153,162) OVERCAST */
+/* rgb(213,213,213) PAPER */
