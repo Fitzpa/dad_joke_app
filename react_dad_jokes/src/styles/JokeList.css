@@ -35,10 +35,12 @@
   background: rgb(213, 213, 213);
   align-self: center;
   width: 70%;
-  overflow: scroll;
+  overflow: auto;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.5),
     inset 0 0 25px rgba(0, 0, 0, 0.2);
 }
+.JokeListContainer::-webkit-scrollbar { 
+  background: transparent;  }
 
 .JokeList-spinner {
   color: white;
